@@ -1,0 +1,25 @@
+.nav {
+
+  // .nav__list
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  // .nav__item
+
+  &__item {
+  }
+
+  // .nav__link
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
