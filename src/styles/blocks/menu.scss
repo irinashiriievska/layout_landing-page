@@ -8,7 +8,7 @@
   line-height: 22px;
 
   &__content {
-    padding-inline: 20px;
+    @include constentPaddingInline;
   }
 
   &__top {
