@@ -24,5 +24,9 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 100%;
+
+    @include onTablet {
+      font-size: 48px;
+    }
   }
 }
