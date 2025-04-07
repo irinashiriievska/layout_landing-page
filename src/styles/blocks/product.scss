@@ -1,5 +1,10 @@
 .product {
+    max-width: 324px;
+    width: 100%;
+    box-sizing: border-box;
   &__photo {
     width: 100%;
+    height: auto;
+    display: block;
   }
 }

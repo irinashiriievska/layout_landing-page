@@ -12,6 +12,8 @@
   &__body {
     margin: 0;
     min-width: 320px;
+    outline: 2px dashed red;
+    overflow-x: hidden;
   }
 
   // .page__menu
