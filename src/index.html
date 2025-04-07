@@ -22,8 +22,8 @@
   <body class="page__body">
     <header class="header">
       <div class="top-bar">
-        <a href="#" class="top-bar__logo">
-          <img src="../src/image/Logo.png" alt="Logo">
+        <a href="#" class="top-bar__logo-link">
+          <img src="../src/image/logo-2x.png" alt="Logo">
         </a>
 
         <div class="top-bar__icons">
@@ -39,8 +39,10 @@
 
     <aside class="page__menu menu" id="menu">
       <div class="top-bar menu__top">
-        <a href="#" class="top-bar__logo">
-          <img src="../src/image/Logo.png" alt="Logo">
+        <a href="#" class="top-bar__logo-link">
+          <img class="top-bar__logo"
+          src="../src/image/logo-2x.png"
+          alt="Logo">
         </a>
 
         <a href="#" class="icon icon--close"></a>
@@ -76,20 +78,60 @@
 
     <main class="main">
       <section class="recommended" id="products">
-        <h2>Recommended</h2>
+        <h2 class="section-title">Recommended</h2>
+
+        <div class="recommended__products">
+          <article class="product">
+            <img src="image/image-1.png"
+            alt="product"
+            class="product__photo"
+            >
+            <h3 class="product-title">Phone (1)</h3>
+            <p class="product-text">
+              Designed with instinct, to bring joy back to the everyday.
+              Through the Glyph Interface, a perfected OS and exceptional
+              dual camera. All startlingly fast.
+            </p>
+            <p class="product-price">$ 499.00</p>
+          </article>
+
+          <article class="product">
+            <img src="image/image-2.png"
+            alt="product"
+            class="product-photo">
+            <h3 class="product-title">Ear (2)</h3>
+            <p class="product-text">
+              Perfecting the path from artist to ear.
+              So that music sounds just as it was intended.
+            </p>
+            <p class="product-price">$ 149.00</p>
+          </article>
+
+          <article class="product">
+            <img src="image/image-3.png"
+            alt="product"
+            class="product-photo">
+            <h3 class="product-title">Ear (stick)</h3>
+            <p class="product-text">
+              Tech you can’t feel. Leaving just space for sound to come to life.
+              Powered by custom sound technology.
+            </p>
+            <p class="product-price">$ 119.00</p>
+          </article>
+        </div>
 
       </section>
 
       <section class="store" id="store">
-        <h2>Browse Nothing products by category</h2>
+        <h2 class="section-title">Browse Nothing products by category</h2>
       </section>
 
       <section class="login" id="login">
-        <h2>About us</h2>
+        <h2 class="section-title">About us</h2>
       </section>
 
       <section class="cart" id="cart">
-        <h2>Contact us</h2>
+        <h2 class="section-title">Contact us</h2>
       </section>
     </main>
   </body>

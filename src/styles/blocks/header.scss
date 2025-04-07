@@ -1,6 +1,7 @@
 .header {
+  display: none !important;
   box-sizing: border-box;
-  background-image: url(/src/image/header-bg-image.png);
+  background-image: url(../image/header-bg-image.png);
   height: 100vh;
   background-size: cover;
   background-position: center;

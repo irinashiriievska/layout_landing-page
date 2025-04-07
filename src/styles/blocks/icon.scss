@@ -2,6 +2,11 @@
   display: block;
   width: 24px;
   height: 24px;
+  transition: transform 0.3s;
+  background-size: cover;
+  background-position: center;
+
+  @include hover(transform, scale(1.2));
 
   @include onTablet {
     width: 32px;
@@ -9,14 +14,18 @@
   }
 
   &--phone {
-    background-image: url(../icon/phone-number.png);
+    background-image: url(../icon/phone-number.svg);
+
   }
   &--burger {
-    background-image: url(../icon/burger-menu.png);
+    background-image: url(../icon/burger-menu.svg);
+
+    &:hover {
+      background-image: url(../icon/burger-menu-hover.svg);
+    }
   }
   &--close {
-    background-image: url(../icon/icon-close.png);
+    background-image: url(../icon/icon-close.svg);
   }
-
 }
 
